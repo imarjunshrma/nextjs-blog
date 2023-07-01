@@ -11,8 +11,8 @@ const page = () => {
   // console.log(email,name,msg)
   console.log("mail send")
   window.Email.send({
-    SecureToken : "d6652a67-60ac-41e0-ad73-2e9b006aca5f",
-    To :'techarjun59@gmail.com' ,
+    SecureToken : "your token",
+    To :'your gmail' ,
     From :email,
     Subject :'for a personal reason',
     Body : msg
