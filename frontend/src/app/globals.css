@@ -2,24 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-.image {
-    position: static !important;
-}
-
-.portable-text h1 {
-    font-weight: 600;
+h1 {
     font-size: 30px;
+    font-weight: 600;
 }
 
-.portable-text h2 {
-    font-weight: 500;
-    font-size: 24px;
-}
-
-.portable-text p {
-    font-size: 16px;
+h2 {
+    font-size: 20px;
     font-weight: 400;
-    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
 }
