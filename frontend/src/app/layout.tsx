@@ -18,12 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-         <Header/>
+        <Header />
         {children}
-        <Footer/>
-        <Script src="https://smtpjs.com/v3/smtp.js">
-</Script>
-        </body>
+        <Footer />
+        <Script src="https://smtpjs.com/v3/smtp.js" id='smtp-script'></Script>
+      </body>
     </html>
   )
 }
